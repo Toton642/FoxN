@@ -166,7 +166,7 @@ NeuralFoxP2/
 
 ## 8. Extending Neural FOXP2
 
-To apply Neural FOXP2 to a new model, update `config.py` with the new model name, layer range, and tokeniser, then rerun Stage I to Stage III. To add a new target language, define token subsets for the language and English, build matched meaning prompts, and follow the same pipeline. We provide example configs for Hindi and Spanish in `configs/` as starting points.
+To apply Neural FOXP2 to a new model, update `config.py` with the new model name, layer range, and tokeniser, then rerun Stage I to Stage III. To add a new target language, define token subsets for the language and English, build matched meaning prompts, and follow the same pipeline.
 
 ### 8.1 Configuration
 
