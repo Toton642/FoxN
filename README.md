@@ -26,6 +26,14 @@ We model language defaultness as the early step probability mass that a multilin
 3. **Stage III: Signed sparse intervention**  
    Within the selected layers, construct prototype directions for the target language and English, tune intervention strengths on development data, and apply signed sparse activation edits during generation to shift defaultness toward the target language while keeping task metrics stable.
 
+## Neural FOXP2 at a glance
+
+The figure below sketches the three main components of Neural FOXP2. On the left we have the base language model and the residual stream activations that we probe layer by layer. In the middle we train sparse autoencoders on these activations and obtain a dictionary style feature basis. On the right we summarise the learned language neuron dictionary, where each feature is associated with example Hindi and Spanish tokens.
+
+<p align="center">
+  <img src="foxp2_pipeline.png" alt="Neural FOXP2 pipeline: language model activations, sparse autoencoders, and language neuron dictionary" width="800">
+</p>
+
 
 ## 4. Installation
 
