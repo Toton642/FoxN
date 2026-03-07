@@ -2,7 +2,7 @@
 
 # Neural FOXP2: Language Specific Neuron Steering for Targeted Language Improvement in LLMs
 
-Official implementation of **Neural FOXP2**, to appear at **ACL 2026**.
+Official implementation of **Neural FOXP2**.
 
 > Anusa Saha, Tanmay Joshi, Vinija Jain, Aman Chadha, Amitava Das  
 > Paper: [arXiv:2602.00945](https://arxiv.org/abs/2602.00945)
@@ -202,14 +202,17 @@ The pipeline saves checkpoints after each stage:
 
 ## 10. Citation
 
-If you find this work useful, please cite:
+If you find this work useful, please cite the arXiv preprint:
+
 
 ```bibtex
-@inproceedings{saha2026neuralfoxp2,
+@misc{saha2026neuralfoxp2,
   title     = {Neural FOXP2: Language Specific Neuron Steering for Targeted Language Improvement in LLMs},
   author    = {Saha, Anusa and Joshi, Tanmay and Jain, Vinija and Chadha, Aman and Das, Amitava},
-  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics},
-  year      = {2026}
+  year      = {2026},
+  eprint    = {2602.00945},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL}
 }
 ```
 
